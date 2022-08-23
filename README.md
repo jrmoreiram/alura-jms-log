@@ -8,7 +8,7 @@ Criando um novo projeto para enviar mensagens JMS com prioridades e outras confi
 
 **2)** No console criado uma nova fila: fila.log
 
-**3)** Agora no Eclipse criado um novo projeto jms-log. Copie o JAR activemq-all-5.12.0.jar do projeto anterior e configurado o classpath.
+**3)** Agora no Eclipse criado um novo projeto jms-log. Copiado o JAR activemq-all-5.12.0.jar do projeto anterior e configurado o classpath.
 
 **4)** No projeto jms-log criado uma nova classe ProcessadorLog para consumir as mensagens JMS.
 

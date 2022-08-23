@@ -12,7 +12,7 @@ Criando um novo projeto para enviar mensagens JMS com prioridades e outras confi
 
 **4)** No projeto jms-log crie uma nova classe ProcessadorLog para consumir as mensagens JMS.
 
-**[Em dúvida olhe nas classes criadas no projeto anterior.](https://github.com/jrmoreiram/alura-jms)**
+**Em caso de dúvida olhe nas classes criadas no projeto anterior:** [alura-jms](https://github.com/jrmoreiram/alura-jms)
 
 **5)** Na pasta src crie um novo arquivo jndi.properties:
 ```

@@ -4,7 +4,7 @@
 
 Criando um novo projeto para enviar mensagens JMS com prioridades e outras configurações.
 
-**1)** Com ActiveMQ rodando acesse o console de administração:
+**1)** Com ActiveMQ rodando acessado o console de administração:
 
 **2)** No console criado uma nova fila: fila.log
 
@@ -14,7 +14,7 @@ Criando um novo projeto para enviar mensagens JMS com prioridades e outras confi
 
 **Em caso de dúvida olhe nas classes criadas no projeto anterior:** [alura-jms](https://github.com/jrmoreiram/alura-jms)
 
-**5)** Na pasta src crie um novo arquivo jndi.properties:
+**5)** Na pasta src criado um novo arquivo jndi.properties:
 ```
 java.naming.factory.initial = org.apache.activemq.jndi.ActiveMQInitialContextFactory
 java.naming.provider.url = tcp://localhost:61616

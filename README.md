@@ -4,7 +4,7 @@
 
 Criando um novo projeto para enviar mensagens JMS com prioridades e outras configurações.
 
-**1)** Com ActiveMQ rodando acessado o console de administração:
+**1)** Com ActiveMQ rodando foi acessado o console de administração:
 
 **2)** No console criado uma nova fila: fila.log
 
@@ -21,12 +21,12 @@ java.naming.provider.url = tcp://localhost:61616
 queue.LOG = fila.log
 ```
 
-**6)** Criado a classe para enviar mensagens JMS para a fila.log. Chame a classe de ProdutorMensagemLog.
+**6)** Criado a classe para enviar mensagens JMS para a fila.log. Chamado a classe de ProdutorMensagemLog.
 
-**7)** Testando o envio da mensagem com um tempo de vida de 5s:
+**7)** Testado o envio da mensagem com um tempo de vida de 5s:
 ```
 Message message = session.createTextMessage("INFO | .....");
 producer.send(message,DeliveryMode.NON_PERSISTENT, 1, 5000);
 ```
 
-**8)** Sem ter nenhum consumidor online, envie uma mensagem para a fila.log. Verifique no console de administração do ActiveMQ se a mensagem realmente chegou.
+**8)** Sem ter nenhum consumidor online, envie uma mensagem para a fila.log. Verificado se no console de administração do ActiveMQ se a mensagem realmente chegou.
